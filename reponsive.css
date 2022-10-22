@@ -9,7 +9,12 @@
     .btn{
         display: flex;
         float: left;
+        
         margin-bottom: 40px;
+    }
+    .item{
+        padding: 18px;
+        border-radius: 30px;
     }
 
     .search img {
@@ -94,6 +99,11 @@
         display: flex;
         float: left;
         margin-bottom: 40px;
+    }
+
+    .item{
+        padding: 15px;
+        border-radius: 30px;
     }
 
     .search img {
