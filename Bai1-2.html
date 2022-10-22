@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">
+        Nhập số a 
+    </label>
+    <input id="soa" type="text">
+    <label for="">
+        Nhập số b
+    </label>
+    <input id = "sob" type="text">
+    <p class="ketqua"> </p>
+    <button id="btntinh" onclick=printa()>Tính</button>
+
+    <label for="">
+        Nhập tham số
+    </label>
+    <input id= "tamgiac" type="text">
+    <button id="in" onclick="inTamgiac()">In tam giác</button>
+
+    <script>
+        const a = document.getElementById("soa");
+        const b = document.getElementById("sob");
+        const tinh = document.getElementById("btntinh");
+        let ketqua = document.getElementsByClassName("ketqua");
+        let tamgiac = document.getElementById("tamgiac");
+        
+        // tinh.onclick = function() {
+        //     console.log(a);
+        // };
+        function printa(){
+            console.log(a.value);
+            console.log(b.value);
+            let soa = parseInt(a.value);
+            let sob = parseInt(b.value);
+
+            for (let i = soa; i <= sob; i++) {
+                for (let j = 2; j <i; j++) {
+                    if (i%j != 0){
+                        console.log(i + " ");
+                    }
+                    else 
+                    break;
+                }
+               
+            }
+        }
+
+        function inTamgiac() {
+            let intg = parseInt(tamgiac.value);
+            for (let i = 0 ; i <= intg ; i++) {
+                for (let j = 0 ; j < i ; j++) {
+                    document.writeln("*");
+        }
+                    document.writeln("<br/>")
+            
+    }
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* Tablet */
+@media screen and (min-width : 576px) and (max-width : 1024px)  {
+    .search input{
+        padding: 6px;
+        margin: 15px 0  0 32px;
+        display: block;
+    }
+
+    .btn{
+        display: flex;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+    .search img {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 40px; 
+    }
+
+        .content { 
+            margin-right: auto;
+            margin-top: 50px;
+            float: left;
+            display: grid;
+            grid-template-columns: 400px;
+            grid-template-rows: repeat(6,200px);
+            grid-gap: 10px;
+        }
+
+        .content .member {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 1/2;
+        }
+        
+        
+        .content .member-2 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            
+        }
+        
+        .content .member-3 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+        
+        .content .member-4 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+        
+        .content .member-5 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            
+        }
+        
+        .content .member-6 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 6/7;
+            grid-column: 1/2;
+        }
+        .btn-style button {
+            font-size: 12px;
+        }
+
+}
+
+/* Phone */
+@media screen and (max-width: 576px)  {
+    .search input{
+        padding: 6px;
+        margin: 15px 0  0 32px;
+        display: block;
+    }
+    .nav {
+        font-size: 8px;
+    }
+
+    .btn{
+        display: flex;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+    .search img {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 10px;
+        left: 40px; 
+    }
+
+        .content { 
+            margin-right: auto;
+            margin-top: 30px;
+            float: left;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: repeat(6,150px);
+            grid-gap: 10px;
+        }
+
+        .content .member {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 1/2;
+        }
+        
+        
+        .content .member-2 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            
+        }
+        
+        .content .member-3 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+        
+        .content .member-4 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+        
+        .content .member-5 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            
+        }
+        
+        .content .member-6 {
+            display: flex;
+            flex-flow: row wrap;
+            grid-row: 6/7;
+            grid-column: 1/2;
+        }
+
+        .btn-style button {
+            font-size: 12px;
+        }
+
+}
